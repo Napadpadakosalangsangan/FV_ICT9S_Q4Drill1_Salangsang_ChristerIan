@@ -9,9 +9,9 @@
 
   <style>
 
-  .body{
+  body{
     
-  : rgb(148, 112, 183);
+  background-color: rgb(148, 112, 183);
 
 }
     .container{
@@ -19,6 +19,13 @@
       justify-content: center;
       background-color: rgb(172, 147, 197);
       margin-top: 50px;
+      height: 160px;
+    }
+
+    .btn{
+      color: rgb(208, 187, 230);
+      background-color :rgb(158, 93, 168);
+      margin-top: 15px;
     }
   </style>
 </head>
@@ -29,9 +36,8 @@
   <h1>Electricity Consumption Classifier<h1>
 
   <input type="text" id="kWh" class="form-control" placeholder="input kilowatt per hour :">
-  <button class="btn btn-info" onclick="classify()"></button>
+  <button class="btn" onclick="classify()">Classify</button>
   </div>
-
     
   <script>
 
